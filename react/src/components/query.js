@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import axios from 'axios';
 
 const Query = () =>{
     const [user, setUser] = useState({
@@ -33,9 +32,6 @@ const Query = () =>{
                 phone:phone
             })
         });
-
-        const data = await res.json();
-
 
     }
 

@@ -15,7 +15,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const db = require("./app/models");
-const Role = db.role;
 
 db.mongoose
   .connect('mongodb+srv://karthik_final:karthik_final@cluster0.vpi2v.mongodb.net/myThirdDatabase?retryWrites=true&w=majority', {
@@ -24,7 +23,6 @@ db.mongoose
   })
   .then(() => {
     console.log("Successfully connect to MongoDB.");
-    initial();
   })
   .catch(err => {
     console.error("Connection error", err);
@@ -37,14 +35,10 @@ app.get("/",  (req, res) => {
 });
 
 
-
+//Queries route
 app.post('/queryinsert', async (req, res) => {
     try{
       const {name, question, phone} = req.body;
-      const exist =await UserQuery.findOne({name});
-      if(exist){
-        res.status(400).send('Already Asked')
-      }
       let newUser = new UserQuery({
         name, question, phone
       })
@@ -67,19 +61,3 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
 
-function initial() {
-  Role.estimatedDocumentCount((err, count) => {
-    if (!err && count === 0) {
-      new Role({
-        name: "user"
-      }).save(err => {
-        if (err) {
-          console.log("error", err);
-        }
-
-        console.log("added 'user' to roles collection");
-      });
-
-    }
-  });
-}
