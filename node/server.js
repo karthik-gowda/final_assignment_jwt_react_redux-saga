@@ -29,7 +29,7 @@ db.mongoose
     process.exit();
   });
 
-// simple route
+// simple route for home page
 app.get("/",  (req, res) => {
   res.json({ message: "Welcome to FoodLook." });
 });
@@ -51,9 +51,11 @@ app.post('/queryinsert', async (req, res) => {
 })
 
 
-// routes
+// routes from different folder
 require("./app/routes/auth.routes")(app);
 require("./app/routes/user.routes")(app);
+
+
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
