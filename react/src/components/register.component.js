@@ -142,6 +142,7 @@ export default class Register extends Component {
                   <label htmlFor="username">Username</label>
                   <Input
                     type="text"
+                    title ="testUserName"
                     className="form-control"
                     name="username"
                     value={this.state.username}

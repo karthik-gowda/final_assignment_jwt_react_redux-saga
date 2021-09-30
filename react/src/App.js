@@ -118,7 +118,6 @@ class App extends Component {
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/query" component={Query} />
-
             <Provider store={store}> <Route exact path="/discovery" component={Discovery} /></Provider>
           </Switch>
         </div>

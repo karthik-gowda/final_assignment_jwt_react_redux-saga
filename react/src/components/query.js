@@ -41,7 +41,7 @@ const Query = () =>{
             <form className="form" method="POST">
             <div class="form-group">
                 <label for="name">Name</label>
-                    <input name="name" type="text" value={user.name} onChange={handleInputs} class="form-control" id="name" placeholder="Enter Name"/>
+                    <input title="testName" name="name" type="text" value={user.name} onChange={handleInputs} class="form-control" id="name" placeholder="Enter Name"/>
             </div>
             <div class="form-group">
                 <label for="question">Question</label>

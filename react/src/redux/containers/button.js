@@ -4,7 +4,7 @@ import { getLists } from '../actions';
 import './button.css';
 
 let Button=({getLists})=>(
-    <button className="btn-list" onClick={getLists}>Discover food joints</button>
+    <button title="testButton" className="btn-list" onClick={getLists}>Discover food joints</button>
 )
 const mapDispatchToProps = {
         getLists: getLists,
