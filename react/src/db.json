@@ -1,0 +1,146 @@
+{
+    "restaurants": [
+    {
+        "id": 1,
+        "name": "Adiga's",
+        "location": "Jayanagar, Bangalore",
+        "pricefortwo": "200 Rs",
+        "rating": "3.4/5",
+        "category": "Only Veg"
+    },
+    {
+        "id": 2,
+        "name": "Kannur Food Point",
+        "location": "BTM, Bangalore",
+        "pricefortwo": "200 Rs",
+        "rating": "4/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 3,
+        "name": "Vijayalakshmi",
+        "location": "Basavanagudi, Bangalore",
+        "pricefortwo": "200 Rs",
+        "rating": "3.9/5",
+        "category": "Only Veg"
+    },{
+        "id": 4,
+        "name": "A2B Veg",
+        "location": "Basavanagudi, Bangalore",
+        "pricefortwo": "300 Rs",
+        "rating": "4/5",
+        "category": "Only Veg"
+    },{
+        "id": 5,
+        "name": "Leon Grill",
+        "location": "JP Nagar, Bangalore",
+        "pricefortwo": "200 Rs",
+        "rating": "4.2/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 6,
+        "name": "Ashok Vattika",
+        "location": "Jayanagar, Bangalore",
+        "pricefortwo": "200 Rs",
+        "rating": "3.6/5",
+        "category": "Only Veg"
+    },{
+        "id": 7,
+        "name": "Gowda's Biriyani Corner",
+        "location": "Vijay Nagar, Bangalore",
+        "pricefortwo": "200 Rs",
+        "rating": "3.9/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 8,
+        "name": "IDC Kitchen",
+        "location": "Koramangala 5th Block, Bangalore",
+        "pricefortwo": "100 Rs",
+        "rating": "4.1/5",
+        "category": "Only Veg"
+    },{
+        "id": 9,
+        "name": "Chai Point",
+        "location": "Banashankari, Bangalore",
+        "pricefortwo": "100 Rs",
+        "rating": "4.2/5",
+        "category": "Only Veg"
+    },{
+        "id": 10,
+        "name": "The Pump House",
+        "location": "JP Nagar, Bangalore",
+        "pricefortwo": "450 Rs",
+        "rating": "4.4/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 11,
+        "name": "Levels",
+        "location": "JP Nagar, Bangalore",
+        "pricefortwo": "800 Rs",
+        "rating": "4/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 12,
+        "name": "Taproom by Sherlock's",
+        "location": "JP Nagar, Bangalore",
+        "pricefortwo": "1200 Rs",
+        "rating": "4.2/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 13,
+        "name": "Levitate Brewery And Kitchen",
+        "location": "JP Nagar, Bangalore",
+        "pricefortwo": "900 Rs",
+        "rating": "4/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 14,
+        "name": "Fat Owl",
+        "location": "JP Nagar, Bangalore",
+        "pricefortwo": "400 Rs",
+        "rating": "4.3/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 15,
+        "name": "Stories Bar & Kitchen",
+        "location": "JP Nagar, Bangalore",
+        "pricefortwo": "1100 Rs",
+        "rating": "4.3/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 16,
+        "name": "Paakashala",
+        "location": "JP Nagar, Bangalore",
+        "pricefortwo": "200 Rs",
+        "rating": "4.2/5",
+        "category": "Only Veg"
+    },{
+        "id": 17,
+        "name": "FreshMenu",
+        "location": "Banashankari, Bangalore",
+        "pricefortwo": "250 Rs",
+        "rating": "3.5/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 18,
+        "name": "Sri Udupi Food Hub",
+        "location": "Jayanagar, Bangalore",
+        "pricefortwo": "100 Rs",
+        "rating": "4.1/5",
+        "category": "Only Veg"
+    },{
+        "id": 19,
+        "name": "SLV Corner Restaurant",
+        "location": "Basavanagudi, Bangalore",
+        "pricefortwo": "100 Rs",
+        "rating": "4.2/5",
+        "category": "Veg/Non-Veg"
+    },{
+        "id": 20,
+        "name": "Maruthi Davangere Benne Dosa",
+        "location": "Jayanagar, Bangalore",
+        "pricefortwo": "150 Rs",
+        "rating": "4.2/5",
+        "category": "Only Veg"
+    }
+    ]
+}
