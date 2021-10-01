@@ -2,6 +2,7 @@
     "restaurants": [
     {
         "id": 1,
+        "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2F20-of-the-worlds-best-new-restaurants-for-2020%2Findex.html&psig=AOvVaw2Z7HC9V219sKaogSBDL93Z&ust=1633173782880000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjTvsuMqfMCFQAAAAAdAAAAABAI",
         "name": "Adiga's",
         "location": "Jayanagar, Bangalore",
         "pricefortwo": "200 Rs",

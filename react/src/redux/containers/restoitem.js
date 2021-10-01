@@ -4,12 +4,51 @@ import Query from '../../components/query';
 import {Redirect} from 'react-router-dom';
 import {Link ,useHistory} from 'react-router-dom';
 import './restoitem.css';
+import bg from '../../bg.jpg';
 
 let ResItem = ({ list }) => (
 list ?
-<center >
-    <div>
-        <table className="table table-bordered striped my-4">
+    <div className="main">
+    {list.map(listitems =>
+                    <div className="row">
+                        
+                                <div>
+                                    <img className="img-responsive bg" src={bg} alt="image" />
+                                </div>
+                                <Link to="/query"><td className="links" ><h5 className="card-title">{listitems.name}</h5></td></Link>
+                                <td className="location">{listitems.location}</td>
+                                <td className="price">Price For Two {listitems.pricefortwo}</td>
+                                <td className ="rating">{listitems.rating}</td>
+                                <td className="category">{listitems.category}</td>
+                            
+                    
+                    </div>)}
+    </div>
+:
+null
+
+);
+const mapStateToProps = (state) => ({
+list: state.restaurants,
+
+})
+
+ResItem = connect(mapStateToProps,null)(ResItem)
+export default ResItem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<table className="table table-bordered striped my-4">
             <thead>
             <th>Restaurants</th>
             <th>Location</th>
@@ -28,15 +67,4 @@ list ?
                     </tbody>
             )}
         </table> 
-    </div>
-</center> :
-null
-
-);
-const mapStateToProps = (state) => ({
-list: state.restaurants,
-
-})
-
-ResItem = connect(mapStateToProps,null)(ResItem)
-export default ResItem;
+*/ 
