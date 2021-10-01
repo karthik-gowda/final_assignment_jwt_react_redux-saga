@@ -32,8 +32,10 @@
 }
 
 .img-responsive.bg{
+    position: relative;
+    left: -12px;
     margin-bottom:20px;
-    width: 100%;
+    width: 311px;
 }
 .row:hover .img-responsive.bg{
     transform: scale(1.2);
@@ -55,7 +57,7 @@
     top: -102px;
     left: 250px;
     font-size:16px;
-    color: green;
+    color: #c5283d;
 }
 .category{
     position: relative;
