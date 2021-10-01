@@ -17,7 +17,7 @@ list ?
                                 </div>
                                 <Link to="/query"><td className="links" ><h5 className="card-title">{listitems.name}</h5></td></Link>
                                 <td className="location">{listitems.location}</td>
-                                <td className="price">Price For Two {listitems.pricefortwo}</td>
+                                <td className="price">$ Price For Two {listitems.pricefortwo}</td>
                                 <td className ="rating">{listitems.rating}</td>
                                 <td className="category">{listitems.category}</td>
                             

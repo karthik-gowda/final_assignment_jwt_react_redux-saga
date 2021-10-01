@@ -51,10 +51,11 @@
     position: relative;
     top: -15px;
     color: green;
+    font-weight: bold;
 }
 .rating{
     position: relative;
-    top: -150px;
+    top: -155px;
     left: 250px;
     font-size:16px;
     color: #c5283d;
