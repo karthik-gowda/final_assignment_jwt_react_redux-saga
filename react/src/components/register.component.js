@@ -186,7 +186,7 @@ export default class Register extends Component {
                 <div
                   className={
                     this.state.successful
-                      ? "alert alert-success"
+                      ? alert("Registered SuccesFully")
                       : "alert alert-danger"
                   }
                   role="alert"
