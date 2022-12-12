@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const db = require("./app/models");
 
 db.mongoose
-  .connect('mongodb+srv://karthik_final:karthik_final@cluster0.vpi2v.mongodb.net/myThirdDatabase?retryWrites=true&w=majority', {
+  .connect('mongodb+srv://USERNAME:PASSWORD@cluster0.vpi2v.mongodb.net/myThirdDatabase?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
